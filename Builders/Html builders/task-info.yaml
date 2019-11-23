@@ -58,18 +58,18 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 84
-    length: 10
+  - offset: 83
+    length: 18
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 84
     initialized_from_dependency: false
     possible_answer: (color = getTitleColor())
-    selected: false
-    status: Unchecked
-  - offset: 389
-    length: 6
+    selected: true
+    status: Solved
+  - offset: 423
+    length: 477
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -89,8 +89,8 @@ files:
                           }
                       }
                   }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     fun renderProductTable(): String {
         return html {
@@ -160,5 +160,5 @@ files:
 - name: test/tests.kt
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 66
-    length: 6
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -12,9 +12,9 @@ files:
     initialized_from_dependency: false
     possible_answer: this % 2 == 0
     selected: false
-    status: Unchecked
-  - offset: 112
-    length: 6
+    status: Solved
+  - offset: 119
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -22,7 +22,7 @@ files:
     initialized_from_dependency: false
     possible_answer: this % 2 != 0
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun task(): List<Boolean> {
         val isEven: Int.() -> Boolean = { TODO() }
@@ -34,5 +34,5 @@ files:
 - name: test/tests.kt
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

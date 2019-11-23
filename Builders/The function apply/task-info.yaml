@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 40
-    length: 6
+    length: 24
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -12,7 +12,7 @@ files:
     initialized_from_dependency: false
     possible_answer: f(); return this
     selected: false
-    status: Unchecked
+    status: Solved
   text: |
     fun <T> T.myApply(f: T.() -> Unit): T { TODO() }
 
@@ -37,5 +37,5 @@ files:
 - name: test/tests.kt
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

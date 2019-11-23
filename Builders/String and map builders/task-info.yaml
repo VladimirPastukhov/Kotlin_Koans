@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 26
-    length: 10
+    length: 144
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -16,8 +16,8 @@ files:
           map.build()
           return map
       }
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
   text: |
     import java.util.HashMap
 
@@ -35,5 +35,5 @@ files:
 - name: test/tests.kt
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

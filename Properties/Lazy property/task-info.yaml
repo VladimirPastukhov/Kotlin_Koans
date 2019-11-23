@@ -11,7 +11,7 @@ files:
       offset: 53
     initialized_from_dependency: false
     possible_answer: 'var value: Int? = null'
-    selected: false
+    selected: true
     status: Solved
   - offset: 145
     length: 12
