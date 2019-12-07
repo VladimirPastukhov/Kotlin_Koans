@@ -1,6 +1,18 @@
 import java.util.*
 
-fun partitionTo() = TODO()
+fun main(){
+    partitionLettersAndOtherSymbols()
+    partitionWordsAndLines()
+}
+fun <N> Collection<N>.partitionTo(
+        c1: MutableCollection<N>,
+        c2: MutableCollection<N>,
+        predicat: (N) -> Boolean): Pair<Collection<N>, Collection<N>>{
+    val (one, two) = this.partition(predicat)
+    c1 += one
+    c2 += two
+    return c1 to c2
+}
 
 fun partitionWordsAndLines() {
     val (words, lines) = listOf("a", "a b", "c", "d e").
